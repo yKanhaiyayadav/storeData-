@@ -27,7 +27,12 @@ Route::get('/register', function () {
     return view('pages.register');
 });
 
+
 Route::post('/formRegister', [userController::class, 'register'])->name('/formRegister');
+
+Route::get('/login', function () {
+    return view('pages.login');
+});
 
 Route::fallback(function () {
     return view('errorPage');

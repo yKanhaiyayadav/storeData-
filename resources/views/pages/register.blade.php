@@ -7,6 +7,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col col-8">
+          <h1 class="row justify-content-center p-3">Sign Up</h1>
             <div class="card p-3 m-3">
             <form action="{{route('/formRegister')}}" method="post" enctype="multipart/form-data">
               @csrf
@@ -77,7 +78,10 @@
                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
                  </div>
-                 <button type="submit" class="btn btn-primary">Submit</button>
+                 <div class="d-flex justify-content-between">
+                   <button type="submit" class="btn btn-primary">Submit</button>
+                   <button type="button" class="btn btn-warning">Have an Account <a class="text-light" href="/login">Login</a></button>
+                 </div>
                </form>
             </div>
         </div>
