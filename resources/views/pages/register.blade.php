@@ -38,35 +38,35 @@
                    <div id="emailHelp" class="error-alert"></div>
                  </div>
                  <div class="mb-3">
-                   <label for="exampleInputPassword1" class="form-label">Select State<span class="text-danger">*</span> :</label>
-                   <select name="" class="form-control" name="state">
-                    <option value="up">-- Select State --</option>
-                    <option value="up">Uttar Pradesh</option>
-                    <option value="up">Uttar Pradesh</option>
-                    <option value="up">Uttar Pradesh</option>
-                    <option value="up">Uttar Pradesh</option>
+                   <label for="state" class="form-label">Select State : <span class="text-danger">*</span> :</label>
+                   <select name="state" class="form-control">
+                    <option>-- Select State --</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="New Delhi">New Delhi</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Hariyana">Hariyana</option>
                    </select>
                    <div id="emailHelp" class="error-alert"></div>
                  </div>
                  <div class="mb-3">
-                   <label for="exampleInputPassword1" class="form-label">Select District<span class="text-danger">*</span> :</label>
-                   <select name="" class="form-control" name="dist">
-                    <option value="up">-- Select District --</option>
-                    <option value="up">Gorakhpur</option>
-                    <option value="up">Maharajganj</option>
-                    <option value="up">Basti</option>
-                    <option value="up">Khalilabad</option>
-                   </select>
-                   <div id="emailHelp" class="error-alert"></div>
-                 </div>
+                  <label for="district" class="form-label">
+                      Select District : <span class="text-danger">*</span> :
+                  </label>
+                  <select name="dist" class="form-control">
+                      <option value="">-- Select District --</option>
+                      <option value="Gorakhpur">Gorakhpur</option>
+                      <option value="Maharajganj">Maharajganj</option>
+                      <option value="Basti">Basti</option>
+                      <option value="Khalilabad">Khalilabad</option>
+                  </select>
                  <div class="mb-3">
                    <label for="exampleInputPassword1" class="form-label">Make Password<span class="text-danger">*</span> :</label>
-                   <input type="Password" class="form-control" name="pass">
+                   <input type="Password" class="form-control" name="passwords">
                    <div id="emailHelp" class="error-alert"></div>
                  </div>
                  <div class="mb-3">
                    <label for="exampleInputPassword1" class="form-label">Confirm Password<span class="text-danger">*</span> :</label>
-                   <input type="text" class="form-control" name="pass1">
+                   <input type="text" class="form-control" name="confirm_passwords">
                    <div id="emailHelp" class="error-alert"></div>
                  </div>
                  <div class="mb-3">

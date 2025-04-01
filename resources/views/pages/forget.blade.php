@@ -12,12 +12,12 @@
             <form action="#" method="post" enctype="multipart/form-data">
               @csrf
                  <div class="mb-3">
-                   <label for="exampleInputEmail1" class="form-label">User Email Id<span class="text-danger">*</span> :</label>
-                   <input type="email" class="form-control" name="userId">
+                   <label for="exampleInputEmail1" class="form-label">Old Password : <span class="text-danger">*</span> :</label>
+                   <input type="password" class="form-control" name="old_passwords">
                    <div id="emailHelp" class="error-alert"></div>
                  </div>
                  <div class="mb-3">
-                   <label for="exampleInputPassword1" class="form-label">Password : <span class="text-danger">*</span> :</label>
+                   <label for="exampleInputPassword1" class="form-label">New Password : <span class="text-danger">*</span> :</label>
                    <input type="password" class="form-control" name="passwords">
                    <div id="emailHelp" class="error-alert"></div>
                  </div>

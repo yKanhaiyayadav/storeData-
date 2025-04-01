@@ -3,10 +3,11 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class userModel extends Model
 {
-    use HasFactory, Notifiable;
+    use HasFactory;
 
     protected $table = 'user_data';
 
@@ -20,7 +21,6 @@ class userModel extends Model
         'state',
         'dist',
         'pass',
-        'pass1',
         'image',
     ];
 }
